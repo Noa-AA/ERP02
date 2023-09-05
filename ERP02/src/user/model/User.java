@@ -29,6 +29,10 @@ public class User {
 	public int getUserCode() {
 		return userCode;
 	}
+	
+	public String getUserPw() {
+		return userPw;
+	}
 
 	public String getName() {
 		return name;
