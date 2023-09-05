@@ -65,5 +65,10 @@ public class User {
 	public boolean matchPassword(String userPw) {
 		return userPw.equals(userPw);
 	}
+	
+	public User() {
+		
+	}
+	
 
 }
