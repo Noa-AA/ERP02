@@ -34,6 +34,7 @@ public class User {
 		return userPw;
 	}
 
+
 	public String getName() {
 		return name;
 	}
