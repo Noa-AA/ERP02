@@ -74,6 +74,14 @@ public class User {
 	public User() {
 		
 	}
+
+	public User(String userPw, String empid) {
+		super();
+		this.userPw = userPw;
+		this.empid = empid;
+	}
+	
+	
 	
 
 }
