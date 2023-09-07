@@ -5,29 +5,28 @@ import java.util.Date;
 public class NoticeVO {
 	
 	private int noticeNo;
-	private String notice_ttl;
-	private Date noticeDate;
-	private int noticeHit;
-	private String notice_content;
+	private String title;
+	private Date date;
+	private int hit;
+	private String content;
 	private int adminNo;	
 	
 	public NoticeVO() {	}
 
-	public NoticeVO(int noticeNo, String notice_ttl, Date noticeDate, int noticeHit, String notice_content,
-			int adminNo) {
+	public NoticeVO(int noticeNo, String title, Date date, int hit, String content, int adminNo) {
 		super();
 		this.noticeNo = noticeNo;
-		this.notice_ttl = notice_ttl;
-		this.noticeDate = noticeDate;
-		this.noticeHit = noticeHit;
-		this.notice_content = notice_content;
+		this.title = title;
+		this.date = date;
+		this.hit = hit;
+		this.content = content;
 		this.adminNo = adminNo;
 	}
 
 	@Override
 	public String toString() {
-		return "NoticeVO [noticeNo=" + noticeNo + ", notice_ttl=" + notice_ttl + ", noticeDate=" + noticeDate
-				+ ", noticeHit=" + noticeHit + ", notice_content=" + notice_content + ", adminNo=" + adminNo + "]";
+		return "NoticeVO [noticeNo=" + noticeNo + ", title=" + title + ", date=" + date + ", hit=" + hit + ", content="
+				+ content + ", adminNo=" + adminNo + "]";
 	}
 
 	public int getNoticeNo() {
@@ -38,36 +37,36 @@ public class NoticeVO {
 		this.noticeNo = noticeNo;
 	}
 
-	public String getNotice_ttl() {
-		return notice_ttl;
+	public String getTitle() {
+		return title;
 	}
 
-	public void setNotice_ttl(String notice_ttl) {
-		this.notice_ttl = notice_ttl;
+	public void setTitle(String title) {
+		this.title = title;
 	}
 
-	public Date getNoticeDate() {
-		return noticeDate;
+	public Date getDate() {
+		return date;
 	}
 
-	public void setNoticeDate(Date noticeDate) {
-		this.noticeDate = noticeDate;
+	public void setDate(Date date) {
+		this.date = date;
 	}
 
-	public int getNoticeHit() {
-		return noticeHit;
+	public int getHit() {
+		return hit;
 	}
 
-	public void setNoticeHit(int noticeHit) {
-		this.noticeHit = noticeHit;
+	public void setHit(int hit) {
+		this.hit = hit;
 	}
 
-	public String getNotice_content() {
-		return notice_content;
+	public String getContent() {
+		return content;
 	}
 
-	public void setNotice_content(String notice_content) {
-		this.notice_content = notice_content;
+	public void setContent(String content) {
+		this.content = content;
 	}
 
 	public int getAdminNo() {
@@ -77,6 +76,8 @@ public class NoticeVO {
 	public void setAdminNo(int adminNo) {
 		this.adminNo = adminNo;
 	}
+
+	
 	
 	
 	
