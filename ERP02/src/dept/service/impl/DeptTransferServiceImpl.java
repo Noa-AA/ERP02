@@ -1,5 +1,7 @@
 package dept.service.impl;
 
-public class DeptTransferServiceImpl {
+import dept.service.face.DeptTransferService;
+
+public class DeptTransferServiceImpl implements DeptTransferService {
 
 }
