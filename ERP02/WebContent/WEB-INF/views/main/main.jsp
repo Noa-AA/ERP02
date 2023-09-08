@@ -5,31 +5,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Team2_ERP</title>
 
 <style type="text/css">
-
-#con_section {
-	margin-top: 64px;
-	margin-left: 68px;
-}
-
-
-#loginPage{
-	width: 1400px;
-	margin: 0 auto;
-	text-align: center;
-	padding-top: 100px;
-}
-#boxArea{
-    height: 670px;
-    width: 490px;
-    position: relative;
-    left: 490px;
-    background-color: white;
-    box-shadow: 0px 5px 25px 5px lightgrey;
-    border-radius: 12px;
-}
 
 
 </style>
@@ -44,10 +22,6 @@
         <h4>Contents</h4>
     </div>
     <!--Container Main end-->
-
-
-	<div id="boxArea">
-	</div>
 	
 
 

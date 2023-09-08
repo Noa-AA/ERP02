@@ -8,20 +8,25 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import notice.model.NoticeVO;
 import notice.service.face.NoticeService;
 import notice.service.impl.NoticeServiceImpl;
-@WebServlet("/notice/noticeList")
-public class NoticeController extends HttpServlet {
+@WebServlet("/notice/write")
+public class NoticeWriteController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-	
+    
 	NoticeService noticeService = new NoticeServiceImpl();
-       
-	@Override
+	
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		
 		
-		req.getRequestDispatcher("/WEB-INF/views/notice/noticeList.jsp").forward(req, resp);
-
+		System.out.println("/notice/write [GET]");
+		
+		NoticeVO notice = new NoticeVO();
+		notice = noticeService.getNoticeInfo(req);
+		
+		resp.getWriter().append("Served at: ").append(req.getContextPath());
 	}
+
 
 }

@@ -4,8 +4,8 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
-
+<link href="../resources/img/logo_ERP.png" rel="shortcut icon" type="image/x-icon" id="logo">
+<title>Team2_ERP</title>
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js">
@@ -14,6 +14,7 @@
 
 
 <style type="text/css">
+
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
 
 :root{
@@ -143,7 +144,12 @@ a{text-decoration: none}
 
 } 
 
-
+home_icon{
+	background-color: white;
+	color: white;
+	width: 10px;
+	height: 11px;
+}
 
 </style>
 
@@ -208,9 +214,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
             	</a>
                 
                 <div class="nav_list">
-                	<a href="#" class="nav_link active">
-	                	<i class='bx bx-grid-alt nav_icon'></i>
-	                	<span class="nav_name">Dashboard</span>
+                	<a href="/main" class="nav_link active">
+	                	<i class="bx bx-grid-alt nav_icon" ></i>
+	                	<span class="nav_name">Home</span>
                 	</a>
                 	
                 	<a href="#" class="nav_link">
