@@ -4,7 +4,17 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+
+<style type="text/css">
+
+</style>
+
+
+<link rel="icon" href="../resources/img/header_logo.png" >
+
+
+
+<title>Team2_ERP</title>
 </head>
 <body>
 
