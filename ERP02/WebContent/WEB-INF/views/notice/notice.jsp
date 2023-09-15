@@ -1,13 +1,51 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ include file="/WEB-INF/views/layout/header.jsp" %>
-
-
 <!DOCTYPE html>
 <html>
 <head>
 
 <style type="text/css">
+
+body{margin: 0;}
+
+
+#mainNav{
+	width: 100%;
+	height: 50px;
+	background-color: yellow;
+	position: fixed;
+}
+
+#menu {
+	float: left;
+	height: 100vh;
+	width: 170px;
+	background-color: gray;
+	position: fixed;
+	margin-top: 50px;
+}
+
+#profile {
+	width: 110px;
+    margin-top: 75px;
+    margin-left: 28px;
+	margin-bottom: 8px;
+}
+
+#p_name{
+	text-align: center;
+	font-weight: 900;
+	margin-bottom: 10px;
+	padding: 8px;
+    margin: 0;
+}
+
+#p_dept{
+	text-align: center;
+	font-weight: 700;
+	padding: 0;
+    margin: 0;
+}
 
 #nnn{
 	width: 100%; 
@@ -80,12 +118,31 @@
 
 </style>
 
-<link rel="icon" href="../resources/img/favicon.png" >
+<link rel="icon" href="../resources/img/header_logo.png" >
 
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
+	<div id="mainNav">
+		
+	
+	</div>
+	
+	<div id="menu">
+	
+		<img alt="profile" src="../resources/img/profile.png" id="profile">
+		
+		<p id="p_name">Hong SaramIn</p>
+		<p id="p_dept">소속부서 / 소속 팀</p>
+		
+		<hr style="width: 141px; margin-top: 50px; height: 10px; border-style: none; background-color: yellow;">
+	
+	</div>
+	
+
+	
+	
 	
 		<div id="nnn">
 			<br><br>
@@ -125,7 +182,7 @@
 </html>
 
 
-<%@ include file="/WEB-INF/views/layout/footer.jsp" %>
+
 
 
 
